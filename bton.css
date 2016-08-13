@@ -1,0 +1,594 @@
+/*!
+ * Bton - https://github.com/polcarlo/bton/
+ * Version - 1.1
+ * Copyright (c) 2016 Paul Carlo Tordecilla
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ */
+
+/* default */
+.b-happy{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+}    
+.b-happy:hover{
+    background-color:#2980b9;
+    color: #fff;
+    text-decoration: none;
+}  
+.b-neutral{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #bdc3c7;
+    color: #fff;
+}    
+.b-neutral:hover{
+    background-color:#acb4b9;
+    color: #fff;
+    text-decoration: none;
+}    
+    
+.b-smile{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #2ecc71;
+    color: #fff;
+}    
+.b-smile:hover{
+    background-color:#27ae60;
+    color: #fff;
+    text-decoration: none;
+}     
+.b-tired{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #f1c40f;
+    color: #fff;
+}    
+.b-tired:hover{
+    background-color:#f39c12;
+    color: #fff;
+    text-decoration: none;
+}     
+.b-angry{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #e74c3c;
+    color: #fff;
+}    
+.b-angry:hover{
+    background-color:#c0392b;
+    color: #fff;
+    text-decoration: none;
+}        
+.b-nerd{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #34495e;
+    color: #fff;
+}    
+.b-nerd:hover{
+    background-color:#2c3e50;
+    color: #fff;
+    text-decoration: none;
+}        
+.b-sleep{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #d378a6;
+    color: #fff;
+}    
+.b-sleep:hover{
+    background-color:#c13e80;
+    color: #fff;
+    text-decoration: none;
+}              
+/* OUTLINE */
+.bo-happy{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #3498db;
+    color: #3498db;
+}
+.bo-happy:hover{
+    background-color: #3498db;
+    border: 1px solid #3498db;
+    color: #fff;
+    text-decoration: none;
+}
+/* OUTLINE */
+.bo-neutral{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #bdc3c7;
+    color: #bdc3c7;
+}
+.bo-neutral:hover{
+    background-color: #bdc3c7;
+    border: 1px solid #bdc3c7;
+    color: #fff;
+    text-decoration: none;
+}    
+.bo-smile{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #2ecc71;
+    color: #2ecc71;
+}
+.bo-smile:hover{
+    background-color: #2ecc71;
+    border: 1px solid #2ecc71;
+    color: #fff;
+    text-decoration: none;
+}  
+.bo-tired{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #f1c40f;
+    color: #f1c40f;
+}
+.bo-tired:hover{
+    background-color: #f1c40f;
+    border: 1px solid #f1c40f; 
+    color: #fff;
+    text-decoration: none;
+}   
+.bo-angry{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #e74c3c;
+    color: #e74c3c;
+}
+.bo-angry:hover{
+    background-color: #e74c3c;
+    border: 1px solid #e74c3c;
+    color: #fff;
+    text-decoration: none;
+}     
+.bo-nerd{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #34495e; 
+    color: #34495e;
+}
+.bo-nerd:hover{
+    background-color: #34495e;
+    border: 1px solid #34495e;
+    color: #fff;
+    text-decoration: none;
+}     
+.bo-sleep{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    border: 1px solid #d378a6;
+    color: #d378a6;
+}
+.bo-sleep:hover{
+    background-color: #d378a6;
+    border: 1px solid #d378a6;
+    color: #fff;
+    text-decoration: none;
+}        
+/* RAISED */
+.br-happy{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+}    
+.br-happy:hover{
+    background-color: #52a7e0;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px #95a5a6;
+}   
+.br-neutral{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #bdc3c7;
+    color: #fff;
+}    
+.br-neutral:hover{
+    background-color: #d6d9dc;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px #95a5a6;
+}    
+.br-smile{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #2ecc71;
+    color: #fff;
+}    
+.br-smile:hover{
+    background-color: #44d580;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px #95a5a6;
+}    
+.br-tired{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #f1c40f;
+    color: #fff;
+}    
+.br-tired:hover{
+    background-color: #f4cf3e;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px #95a5a6;
+}      
+.br-angry{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #e74c3c;
+    color: #fff;
+}    
+.br-angry:hover{
+    background-color: #eb6e60;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px #95a5a6;
+}      
+.br-nerd{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #34495e;
+    color: #fff;
+}    
+.br-nerd:hover{
+    background-color: #3f5973;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px #95a5a6;
+}   
+.br-sleep{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #d378a6;
+    color: #fff;
+}    
+.br-sleep:hover{
+    background-color: #e09fbf;
+    text-decoration: none;
+    box-shadow: 0px 2px 4px #95a5a6;
+}     
+/* 3d */
+.b3d-happy{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #3498db;
+    color: #fff;
+    border: 0px;    
+    -webkit-box-shadow: 0px 5px 0px #2b638f;
+    -moz-box-shadow: 0px 5px 0px #2b638f; 
+    box-shadow: 0px 5px 0px #2b638f;
+}    
+.b3d-happy:active{
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    -webkit-transform: translate(0, 5px);
+    -moz-transform: translate(0, 5px);
+    transform: translate(0, 5px);
+}
+
+.b3d-happy:hover{
+    background-color:#2283c3;
+    text-decoration: none;
+    color: #fff;
+}      
+.b3d-neutral{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #bdc3c7;
+    color: #fff;
+    border: 0px;    
+    -webkit-box-shadow: 0px 5px 0px #919ba1;
+    -moz-box-shadow: 0px 5px 0px #919ba1;
+    box-shadow: 0px 5px 0px #919ba1;
+}    
+.b3d-neutral:active{
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    -webkit-transform: translate(0, 5px);
+    -moz-transform: translate(0, 5px);
+    transform: translate(0, 5px);
+}
+
+.b3d-neutral:hover{
+    background-color:#acb4b9;
+    text-decoration: none;
+}        
+.b3d-smile{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: 0px;    
+    -webkit-box-shadow: 0px 5px 0px #219150;
+    -moz-box-shadow: 0px 5px 0px #219150;
+    box-shadow: 0px 5px 0px #219150;
+}    
+.b3d-smile:active{
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    -webkit-transform: translate(0, 5px);
+    -moz-transform: translate(0, 5px);
+    transform: translate(0, 5px);
+}
+
+.b3d-smile:hover{
+    background-color:#2abb67;
+    text-decoration: none;
+    color: #fff;
+}  
+.b3d-tired{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #f1c40f;
+    color: #fff;
+    border: 0px;    
+    -webkit-box-shadow: 0px 5px 0px #a9890a;
+    -moz-box-shadow: 0px 5px 0px #a9890a;
+    box-shadow: 0px 5px 0px #a9890a;
+}    
+.b3d-tired:active{
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    -webkit-transform: translate(0, 5px);
+    -moz-transform: translate(0, 5px);
+    transform: translate(0, 5px);
+}
+
+.b3d-tired:hover{
+    background-color: #d9b00d;
+    text-decoration: none;
+    color: #fff;
+}     
+.b3d-angry{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #e74c3c;
+    color: #fff;
+    border: 0px;    
+    -webkit-box-shadow: 0px 5px 0px #881d11;
+    -moz-box-shadow: 0px 5px 0px #881d11;
+    box-shadow: 0px 5px 0px #881d11;
+  }    
+.b3d-angry:active{
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    -webkit-transform: translate(0, 5px);
+    -moz-transform: translate(0, 5px); 
+    transform: translate(0, 5px);
+}
+
+.b3d-angry:hover{
+    background-color: #e3301c;
+    text-decoration: none;
+    color: #fff;
+}         
+.b3d-nerd{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #34495e;
+    color: #fff;
+    border: 0px;    
+    -webkit-box-shadow: 0px 5px 0px #121a21;
+    -moz-box-shadow: 0px 5px 0px #121a21; 
+    box-shadow: 0px 5px 0px #121a21;
+}    
+.b3d-nerd:active{
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    -webkit-transform: translate(0, 5px);
+    -moz-transform: translate(0, 5px);
+    transform: translate(0, 5px);
+}
+
+.b3d-nerd:hover{
+    background-color: #2d4052;
+    text-decoration: none;
+    color: #fff;
+}        
+.b3d-sleep{
+    padding: 10px 15px 10px 15px;
+    border-radius: 5px;
+    background-color: #d378a6;
+    color: #fff;
+    border: 0px;    
+    -webkit-box-shadow: 0px 5px 0px #9a3266;
+    -moz-box-shadow: 0px 5px 0px #9a3266;
+    box-shadow: 0px 5px 0px #9a3266;
+}    
+.b3d-sleep:active{
+    -webkit-box-shadow: 0px 0px 0px;
+    -moz-box-shadow: 0px 0px 0px;
+    box-shadow: 0px 0px 0px;
+    -webkit-transform: translate(0, 5px);
+    -moz-transform: translate(0, 5px);
+    transform: translate(0, 5px);
+}
+
+.b3d-sleep:hover{
+    background-color: #c7528c;
+    text-decoration: none;
+    color: #fff;
+}    
+.b3d-happy:focus,.b3d-neutral:focus,.b3d-smile:focus,.b3d-tired:focus,.b3d-angry:focus,.b3d-nerd:focus,.b3d-sleep:focus{outline:0;}
+/* Flat Button */
+.bf-happy{
+    padding: 10px 15px 10px 15px;
+    border-radius: 0px;
+    background-color: #3498db;
+    color: #fff;
+}    
+.bf-happy:hover{
+    background-color:#2980b9;
+    color: #fff;
+    text-decoration: none;
+}  
+.bf-neutral{
+    padding: 10px 15px 10px 15px;
+    border-radius: 0px;
+    background-color: #bdc3c7;
+    color: #fff;
+}    
+.bf-neutral:hover{
+    background-color:#acb4b9;
+    color: #fff;
+    text-decoration: none;
+}  
+.bf-smile{
+    padding: 10px 15px 10px 15px;
+    border-radius: 0px;
+    background-color: #2ecc71;
+    color: #fff;
+}    
+.bf-smile:hover{
+    background-color:#27ae60;
+    color: #fff;
+    text-decoration: none;
+}     
+.bf-tired{
+    padding: 10px 15px 10px 15px;
+    border-radius: 0px;
+    background-color: #f1c40f;
+    color: #fff;
+}    
+.bf-tired:hover{
+    background-color:#f39c12;
+    color: #fff;
+    text-decoration: none;
+}     
+.bf-angry{
+    padding: 10px 15px 10px 15px;
+    border-radius: 0px;
+    background-color: #e74c3c;
+    color: #fff;
+}    
+.bf-angry:hover{
+    background-color:#c0392b;
+    color: #fff;
+    text-decoration: none;
+}        
+.bf-nerd{
+    padding: 10px 15px 10px 15px;
+    border-radius: 0px;
+    background-color: #34495e;
+    color: #fff;
+}    
+.bf-nerd:hover{
+    background-color:#2c3e50;
+    color: #fff;
+    text-decoration: none;
+}      
+.bf-sleep{
+    padding: 10px 15px 10px 15px;
+    border-radius: 0px;
+    background-color: #d378a6;
+    color: #fff;
+}    
+.bf-sleep:hover{
+    background-color:#c13e80;
+    color: #fff;
+    text-decoration: none;
+}           
+/* Rounded */
+.bround-happy{
+    padding: 10px 15px 10px 15px;
+    border-radius: 50%;
+    background-color: #3498db;
+    color: #fff;
+}    
+.bround-happy:hover{
+    background-color:#2980b9;
+    text-decoration: none;
+}    
+.bround-neutral{
+    padding: 10px 15px 10px 15px;
+    border-radius: 50%;
+    background-color: #bdc3c7;
+    color: #fff;
+}    
+.bround-neutral:hover{
+    background-color:#acb4b9;
+    color: #fff;
+    text-decoration: none;
+}        
+.bround-smile{
+    padding: 10px 15px 10px 15px;
+    border-radius: 50%;
+    background-color: #2ecc71;
+    color: #fff;
+}    
+.bround-smile:hover{
+    background-color:#27ae60;
+    color: #fff;
+    text-decoration: none;
+}     
+.bround-tired{
+    padding: 10px 15px 10px 15px;
+    border-radius: 50%;
+    background-color: #f1c40f;
+    color: #fff;
+}    
+.bround-tired:hover{
+    background-color:#f39c12;
+    color: #fff;
+    text-decoration: none;
+}     
+.bround-angry{
+    padding: 10px 15px 10px 15px;
+    border-radius: 50%;
+    background-color: #e74c3c;
+    color: #fff;
+}    
+.bround-angry:hover{
+    background-color:#c0392b;
+    color: #fff;
+    text-decoration: none;
+}        
+.bround-nerd{
+    padding: 10px 15px 10px 15px;
+    border-radius: 50%;
+    background-color: #34495e;
+    color: #fff;
+}    
+.bround-nerd:hover{
+    background-color:#2c3e50;
+    color: #fff;
+    text-decoration: none;
+}        
+.bround-sleep{
+    padding: 10px 15px 10px 15px;
+    border-radius: 50%;
+    background-color: #d378a6;
+    color: #fff;
+}    
+.bround-sleep:hover{
+    background-color:#c13e80;
+    color: #fff;
+    text-decoration: none;
+}          
+.bton-xs{
+    padding: 5px 8px 5px 8px;
+    font-size: 68%;
+}
+.bton-s{
+    padding: 6px 9px 6px 9px;
+    font-size: 80%;
+}
+.bton-l{
+    padding: 8px 12px 8px 12px;
+    font-size: 98%;
+}
+.bton-xl{
+    padding: 10px 14px 10px 14px;
+    font-size: 120%;
+} 
+.bton-xxl{
+    padding: 12px 18px 12px 18px;
+    font-size: 140%;
+} 
